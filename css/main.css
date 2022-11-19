@@ -467,6 +467,9 @@ ul {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.site-nav__link.current {
+  color: var(--accent-color);
+}
 .site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
@@ -842,6 +845,11 @@ ul {
 }
 
 .project__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--nav-color);
   margin-bottom: 4px;
 }
 
@@ -849,5 +857,6 @@ ul {
   font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  padding: 6px 0;
   color: var(--text-color);
 }/*# sourceMappingURL=main.css.map */
